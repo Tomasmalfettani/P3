@@ -1,0 +1,43 @@
+* { 
+    margin: 0%;
+    padding: 0;
+} 
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+.sticky {
+    position: sticky; 
+    z-index: 3;
+    top: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: default;
+}
+
+html a:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: #496364;
+}
+
+header {
+    background-color: #354a4a;
+    color: white;
+}
