@@ -50,7 +50,6 @@
 
 html {
     scroll-behavior: smooth;
-    cursor: default;
 }
 
 html a:hover {
@@ -90,3 +89,12 @@ header {
 .tituloNosotros {
     border-bottom: 2px solid white;
 }
+
+.centrarTexto {
+    text-align: left;
+}
+
+.bordeArribaFooter {
+    border-top: 2px solid #018673 ;
+}
+
