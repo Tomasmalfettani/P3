@@ -24,6 +24,8 @@
     display: inline-block;
 }
 
+/* eoNH6b8xsGQ9AUw6YeBMPeMW3EcRkf */
+
 .link::before {
     content: '';
     position: absolute;
@@ -86,7 +88,7 @@ header {
     background-color: #354a4a;
 }
 
-.tituloNosotros {
+.tituloSub {
     border-bottom: 2px solid white;
 }
 
@@ -94,7 +96,57 @@ header {
     text-align: left;
 }
 
-.bordeArribaFooter {
-    border-top: 2px solid #018673 ;
+.centrarItems {
+    align-items: center;
 }
 
+.bordeArribaFooter {
+    border-top: 4px solid #496364 ;
+}
+
+.bordeImagen {
+    border: 4px solid #354a4a;
+}
+
+.bordeImagen2 {
+    border: 4px solid #496364;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: white;
+}
+
+.enlaces:hover {
+    color: white;
+}
+
+.enlaces::after {
+    color: white;
+}
+
+.mapResponsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.mapResponsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
