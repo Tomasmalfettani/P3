@@ -84,6 +84,31 @@ header {
     
 }
 
+@media screen and (max-width:375px) { 
+
+    #noFold {
+
+        display: none;
+    }
+
+    #contactoMayor {
+
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:376px) { 
+
+    #fold {
+
+        display: none;
+    }
+
+
+    
+}
+
 .fondoGris {
     background-color: #354a4a;
 }
