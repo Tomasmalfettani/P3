@@ -24,8 +24,6 @@
     display: inline-block;
 }
 
-/* eoNH6b8xsGQ9AUw6YeBMPeMW3EcRkf */
-
 .link::before {
     content: '';
     position: absolute;
